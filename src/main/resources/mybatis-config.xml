@@ -13,10 +13,10 @@
 		<environment id="development">
 			<transactionManager type="jdbc" />
 			<dataSource type="POOLED">
-				<property name="driver" value="${oracle.jdbc.driver}" />
-				<property name="url" value="${db1.jdbc.url}" />
-				<property name="username" value="${db1.jdbc.username}" />
-				<property name="password" value="${db1.jdbc.password}" />
+				<property name="driver" value="${mysql.jdbc.driver}" />
+				<property name="url" value="${db6.jdbc.url}" />
+				<property name="username" value="${db6.jdbc.username}" />
+				<property name="password" value="${db6.jdbc.password}" />
 			</dataSource>
 		</environment>
 	</environments>
